@@ -7,13 +7,13 @@ const Footer = () => {
     <footer>
       <div className="container">
         <div className="row row__column">
-          <Link to="/library">
+          <Link to="/">
             <figure className="footer__logo">
               <img src={Logo} alt="" className="footer__logo--img" />
             </figure>
           </Link>
           <div className="footer__list">
-            <Link to="/library" className="footer__link">
+            <Link to="/" className="footer__link">
               Home
             </Link>
             <span className="footer__link no__cursor">About</span>

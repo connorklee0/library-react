@@ -15,12 +15,12 @@ const Nav = ({ totalItems }) => {
   return (
     <nav>
       <div className="nav__container">
-        <Link to="/library">
+        <Link to="/">
           <img src={LibraryLogo} alt="" className="logo" />
         </Link>
         <ul className="nav__links">
           <li className="nav__list">
-            <Link to="/library" className="nav__link">
+            <Link to="/" className="nav__link">
               Home
             </Link>
           </li>
@@ -47,7 +47,7 @@ const Nav = ({ totalItems }) => {
           </div>
           <ul className="menu__links">
             <li className="menu__list">
-              <Link to="/library" className="menu__link">
+              <Link to="/" className="menu__link">
                 Home
               </Link>
             </li>
