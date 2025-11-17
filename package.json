@@ -2,7 +2,7 @@
   "name": "library-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://connorklee0.github.io/library-react",
+  "homepage": ".",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^7.1.0",
     "@fortawesome/free-brands-svg-icons": "^7.1.0",
