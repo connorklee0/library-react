@@ -47,7 +47,7 @@ function App() {
       <div className="App">
         <Nav totalItems={totalItems} />
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/library" exact element={<Home />} />
           <Route path="/books" exact element={<Books books={books} />} />
           <Route
             path="/books/:id"
